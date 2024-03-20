@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vmin;
+    background-color: #08415C;
+    
+}
+.nav-bar{
+    color:#F8F7F9;
+    font-size: 2rem
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30vmin;
+    gap: 10vmin;
+}
+
+.choice img{
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 10%;
+    
+}
+.choice img:hover{
+    background-color:#D4D6B9;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10vmin;
+    height: 30vmin;
+}
+.display p{
+    font-size: 2rem;
+    color: black;
+    font-weight:550;
+    
+}
+.you-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comp-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.message .msg{
+    height: 6vmin;
+    background-color:#08415C;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid black;
+}
+.msg-box{
+    padding: 5px 20px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
